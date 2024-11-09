@@ -102,7 +102,7 @@ function Technologies() {
         </motion.div>
 
         <motion.div
-          variants={iconVariants(2.1)}
+          variants={iconVariants(1.7)}
           initial='initial'
           animate='animate'
           className='rounded-2xl border-4 border-neutral-800 p-4'
