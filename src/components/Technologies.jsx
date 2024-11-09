@@ -9,6 +9,7 @@ import {
 } from 'react-icons/ri';
 import { AiOutlinePython } from 'react-icons/ai';
 import { BiLogoDjango } from 'react-icons/bi';
+import { TbBrandCpp } from "react-icons/tb";
 import { motion } from 'framer-motion';
 
 const iconVariants = (duration) => ({
@@ -98,6 +99,15 @@ function Technologies() {
           className='rounded-2xl border-4 border-neutral-800 p-4'
         >
           <AiOutlinePython className='text-5xl fill-yellow-200' />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(2.1)}
+          initial='initial'
+          animate='animate'
+          className='rounded-2xl border-4 border-neutral-800 p-4'
+        >
+          <TbBrandCpp className='text-5xl fill-blue-700' />
         </motion.div>
 
         <motion.div
