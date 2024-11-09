@@ -107,7 +107,7 @@ function Technologies() {
           animate='animate'
           className='rounded-2xl border-4 border-neutral-800 p-4'
         >
-          <TbBrandCpp className='text-5xl fill-blue-700' />
+          <TbBrandCpp className='text-5xl' />
         </motion.div>
 
         <motion.div
