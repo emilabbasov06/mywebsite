@@ -2,6 +2,7 @@ import project1 from '../assets/projects/project-1.png';
 import project2 from '../assets/projects/project-2.png';
 import project3 from '../assets/projects/project-3.png';
 import project4 from '../assets/projects/project-4.png';
+import project5 from '../assets/projects/mapspc.PNG';
 
 export const HERO_CONTENT = `I'm a passionate 18-year-old Front-End Developer with a strong foundation in HTML, CSS, and JavaScript. I'm eager to contribute my skills to creating intuitive and visually appealing web experiences. I'm currently learning React and I am always seeking opportunities to expand my knowledge and stay updated on the latest web development trends.`;
 
@@ -51,6 +52,12 @@ export const PROJECTS = [
     title: 'Portfolio Website',
     image: project4,
     description: `My Portfolio Website is a showcase of my web development skills, built using React for dynamic components and Tailwind CSS for rapid styling. This project allowed me to demonstrate my ability to create visually appealing and interactive web applications. I used React to build a responsive and user-friendly interface, while Tailwind CSS provided a streamlined approach to styling the website.`,
+    technologies: ['HTML5', 'CSS3', 'React', 'Tailwind'],
+  },
+  {
+    title: 'MapsPC.io',
+    image: project5,
+    description: `A dynamic, fully responsive promotional website built for MapcPC.io, a new Telegram bot game. Developed using HTML5, CSS3, JavaScript, ReactJS, and TailwindCSS, this site serves as the main online hub for the game, providing users with essential information, engaging visuals, and easy access to the game via Telegram. `,
     technologies: ['HTML5', 'CSS3', 'React', 'Tailwind'],
   },
 ];
