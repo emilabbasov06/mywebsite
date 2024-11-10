@@ -4,7 +4,7 @@ import project3 from '../assets/projects/project-3.png';
 import project4 from '../assets/projects/project-4.png';
 import project5 from '../assets/projects/mapspc.PNG';
 
-export const HERO_CONTENT = `I'm a passionate 20-year-old Front-End Developer with a strong foundation in HTML, CSS, and JavaScript. I'm eager to contribute my skills to creating intuitive and visually appealing web experiences. I'm currently learning React and I am always seeking opportunities to expand my knowledge and stay updated on the latest web development trends.`;
+export const HERO_CONTENT = `I'm a passionate 18-year-old Front-End Developer with a strong foundation in HTML, CSS, and JavaScript. I'm eager to contribute my skills to creating intuitive and visually appealing web experiences. I'm currently learning React and I am always seeking opportunities to expand my knowledge and stay updated on the latest web development trends.`;
 
 export const ABOUT_TEXT = `A dedicated and enthusiastic Junior Front-End Developer with a strong foundation in
 HTML5, CSS3, JavaScript, and a growing proficiency in React. Committed to crafting visually
