@@ -16,7 +16,7 @@
   justify-content: center;
   width: calc(100% / 4);
   height: max-content;
-  border: 1px solid rgba(119, 136, 153, 0.253);
+  border: 1px solid rgba(155, 177, 199, 0.253);
   box-shadow: 1px 1px 30px rgba(114, 78, 114, 0.26);
   border-radius: 1rem;
   transition: 0.5s all;
