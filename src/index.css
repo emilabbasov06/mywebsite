@@ -7,3 +7,54 @@
 :root {
   font-family: 'Nunito', sans-serif;
 }
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 4);
+  height: max-content;
+  border: 1px solid rgba(119, 136, 153, 0.253);
+  box-shadow: 1px 1px 30px rgba(114, 78, 114, 0.26);
+  border-radius: 1rem;
+  transition: 0.5s all;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.linkBtn {
+  width: fit-content;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+  background: rgba(128, 128, 128, 0.212);
+  transition: 0.5s all;
+}
+
+.linkBtn:hover {
+  background: rgba(128, 128, 128, 0.425);
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    width: 95%;
+    height: fit-content;
+  }
+}

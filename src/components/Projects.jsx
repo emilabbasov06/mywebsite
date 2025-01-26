@@ -13,11 +13,16 @@ function Projects() {
       >
         Projects
       </motion.h2>
-      <div>
+      <div className='projects flex items-center justify-center flex-wrap gap-3'>
         {PROJECTS.map((project, index) => {
           return (
-            <div className='mb-8 flex flex-wrap lg:justify-center' key={index}>
-              <motion.div
+            <div className='card mb-8 flex flex-wrap lg:justify-center h-auto' key={index}>
+              <img src={project.image} alt={project.title} />
+              <div className='p-3 flex flex-col items-center'>
+                <h6 className='mb-2 font-semibold'>{project.title}</h6>
+                <a className='linkBtn text-center' href={project.link} target='_blank'>GitHub</a>
+              </div>
+              {/* <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1 }}
@@ -49,7 +54,7 @@ function Projects() {
                     </span>
                   );
                 })}
-              </motion.div>
+              </motion.div> */}
             </div>
           );
         })}

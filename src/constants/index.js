@@ -1,8 +1,10 @@
-import project1 from '../assets/projects/project-1.png';
-import project2 from '../assets/projects/project-2.png';
-import project3 from '../assets/projects/project-3.png';
-import project4 from '../assets/projects/project-4.png';
-import project5 from '../assets/projects/project-5.png';
+import facebook from '../assets/projects/facebook.png';
+import lanhost from '../assets/projects/lanhost.png';
+import todoapp from '../assets/projects/todoapp.png';
+import brainwave from '../assets/projects/brainwave.png';
+import threejs from '../assets/projects/threejs.png';
+import fastapi from '../assets/projects/fastapi.png';
+import dbboard from '../assets/projects/dbboard.png';
 
 export const HERO_CONTENT = `I'm a passionate 18-year-old Front-End Developer with a strong foundation in HTML, CSS, and JavaScript. I'm eager to contribute my skills to creating intuitive and visually appealing web experiences. I'm currently learning React and I am always seeking opportunities to expand my knowledge and stay updated on the latest web development trends.`;
 
@@ -31,34 +33,39 @@ cross-browser compatibility and optimalperformance.`,
 
 export const PROJECTS = [
   {
-    title: 'Facebook Login Page Clone',
-    image: project1,
-    description: `This project is a recreation of Facebook's login page, designed to replicate its aesthetics. By building this clone, I've gained a deeper understanding of web development concepts, including HTML5 and CSS3. I've also honed my skills in creating user-friendly interfaces and implementing responsive design principles.`,
-    technologies: ['HTML5', 'CSS3'],
+    title: 'Facebook Login Page',
+    image: facebook,
+    link: 'https://github.com/emilabbasov06/facebook-login-page'
   },
   {
     title: 'LanHost Landing Page',
-    image: project2,
-    description: `LanHost is a landing page I created to showcase my web development skills. This project allowed me to practice HTML5 and CSS3 to design an attractive and user-friendly interface. I focused on creating a clean layout, intuitive navigation, and engaging visuals to effectively communicate the purpose of LanHost and encourage user interaction.`,
-    technologies: ['HTML5', 'CSS3'],
+    image: lanhost,
+    link: 'https://github.com/emilabbasov06/lanhost_web'
   },
   {
     title: 'Todo App',
-    image: project3,
-    description: `Todo App is a React-based application I built to enhance my understanding of React components, state management, and event handling. This project allowed me to create a dynamic and interactive interface where users can add, edit, and delete tasks. By leveraging React's powerful features, I was able to develop a functional and efficient todo list application that effectively organizes and manages tasks.`,
-    technologies: ['HTML5', 'CSS3', 'React'],
+    image: todoapp,
+    link: 'https://github.com/emilabbasov06/todo_list',
   },
   {
-    title: 'Portfolio Website',
-    image: project4,
-    description: `My Portfolio Website is a showcase of my web development skills, built using React for dynamic components and Tailwind CSS for rapid styling. This project allowed me to demonstrate my ability to create visually appealing and interactive web applications. I used React to build a responsive and user-friendly interface, while Tailwind CSS provided a streamlined approach to styling the website.`,
-    technologies: ['HTML5', 'CSS3', 'React', 'Tailwind'],
+    title: 'Brainwave React App',
+    image: brainwave,
+    link: 'https://github.com/emilabbasov06/brainwave',
   },
   {
-    title: 'MapsPC.io',
-    image: project5,
-    description: `A dynamic, fully responsive promotional website built for MapcPC.io, a new Telegram bot game. Developed using HTML5, CSS3, JavaScript, ReactJS, and TailwindCSS, this site serves as the main online hub for the game, providing users with essential information, engaging visuals, and easy access to the game via Telegram. `,
-    technologies: ['HTML5', 'CSS3', 'React', 'Tailwind'],
+    title: 'ThreeJS T-Shirt App',
+    image: threejs,
+    link: 'https://github.com/emilabbasov06/threejs-shirt-app',
+  },
+  {
+    title: 'FastAPI Application',
+    image: fastapi,
+    link: 'https://github.com/emilabbasov06/ecommerce',
+  },
+  {
+    title: 'DBBoard Dashboard (with API)',
+    image: dbboard,
+    link: 'https://github.com/emilabbasov06/ecommerce',
   },
 ];
 
