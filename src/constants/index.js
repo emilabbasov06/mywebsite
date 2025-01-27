@@ -6,7 +6,11 @@ import threejs from '../assets/projects/threejs.png';
 import fastapi from '../assets/projects/fastapi.png';
 import dbboard from '../assets/projects/dbboard.png';
 
-export const HERO_CONTENT = `I'm a passionate 18-year-old Front-End Developer with a strong foundation in HTML, CSS, and JavaScript. I'm eager to contribute my skills to creating intuitive and visually appealing web experiences. I'm currently learning React and I am always seeking opportunities to expand my knowledge and stay updated on the latest web development trends.`;
+export const HERO_CONTENT = `Hi, I'm an 18-year-old Software Developer passionate about building innovative and user-friendly digital experiences. I specialize in Front-End Development and work with modern technologies like JavaScript, React, Django, and FastAPI to create dynamic and functional applications.
+
+Currently, I'm focused on enhancing my skills in ReactJS and FastAPI, diving deeper into building seamless and scalable web solutions. With a keen eye for detail and a love for problem-solving, I aim to combine creativity and technical expertise to deliver impactful projects.
+
+When I'm not coding, you'll find me exploring new technologies, building side projects, and contributing to the ever-evolving tech ecosystem. Let's create something amazing together!`;
 
 export const ABOUT_TEXT = `A dedicated and enthusiastic Junior Front-End Developer with a strong foundation in
 HTML5, CSS3, JavaScript, and a growing proficiency in React. Committed to crafting visually

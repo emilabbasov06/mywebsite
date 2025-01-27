@@ -11,6 +11,7 @@ import { AiOutlinePython } from 'react-icons/ai';
 import { BiLogoDjango } from 'react-icons/bi';
 import { TbBrandCpp } from "react-icons/tb";
 import { motion } from 'framer-motion';
+import { SiFastapi } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -117,6 +118,15 @@ function Technologies() {
           className='rounded-2xl border-4 border-neutral-800 p-4'
         >
           <BiLogoDjango className='text-5xl text-green-400' />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(2.3)}
+          initial='initial'
+          animate='animate'
+          className='rounded-2xl border-4 border-neutral-800 p-4'
+        >
+          <SiFastapi className='text-5xl text-emerald-700' />
         </motion.div>
 
         <motion.div
