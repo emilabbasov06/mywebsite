@@ -5,6 +5,7 @@ import brainwave from '../assets/projects/brainwave.png';
 import threejs from '../assets/projects/threejs.png';
 import fastapi from '../assets/projects/fastapi.png';
 import dbboard from '../assets/projects/dbboard.png';
+import movies from '../assets/projects/movies.png';
 
 export const HERO_CONTENT = `Hi, I'm an 18-year-old Software Developer passionate about building innovative and user-friendly digital experiences. I specialize in Front-End Development and work with modern technologies like JavaScript, React, Django, and FastAPI to create dynamic and functional applications.
 
@@ -70,6 +71,11 @@ export const PROJECTS = [
     title: 'DBBoard Dashboard (with API)',
     image: dbboard,
     link: 'https://github.com/emilabbasov06/ecommerce',
+  },
+  {
+    title: 'Movies App (React + TMDB API)',
+    image: movies,
+    link: 'https://github.com/emilabbasov06/movies-app',
   },
 ];
 
