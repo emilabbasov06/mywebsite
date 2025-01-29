@@ -38,21 +38,6 @@ cross-browser compatibility and optimalperformance.`,
 
 export const PROJECTS = [
   {
-    title: 'Facebook Login Page',
-    image: facebook,
-    link: 'https://github.com/emilabbasov06/facebook-login-page'
-  },
-  {
-    title: 'LanHost Landing Page',
-    image: lanhost,
-    link: 'https://github.com/emilabbasov06/lanhost_web'
-  },
-  {
-    title: 'Todo App',
-    image: todoapp,
-    link: 'https://github.com/emilabbasov06/todo_list',
-  },
-  {
     title: 'Brainwave React App',
     image: brainwave,
     link: 'https://github.com/emilabbasov06/brainwave',
